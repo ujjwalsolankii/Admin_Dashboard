@@ -16,7 +16,7 @@ function App() {
           <Route exact path="/">
             <Home/>
           </Route>
-          <Route path="/users">
+          <Route exact path="/user">
             <UserList />
           </Route>
           <Route path="/user/:userId">
