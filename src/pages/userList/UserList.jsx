@@ -9,9 +9,10 @@ import { Link } from "react-router-dom";
 const UserList = () => {
 
   const [data , setData] = useState(userRows);
+
   const handleDelete = ( id ) => {
       setData( data.filter((item) => item.id !== id)); // Excluimos de data aquellos items cuya id coincida con el id seleccionado
-  }
+  };
 
 
 
@@ -53,19 +54,14 @@ const UserList = () => {
   ];
   return (
     <div className="userList">
-        <DataGrid
-          rows={data}
-          disableRowSelectionOnClick
-          columns={columns}
-          initialState={{
-            pagination: {
-              paginationModel: { page: 0, pageSize: 8 },
-            },
-          }}
-          pageSizeOptions={[5, 10]}
-          checkboxSelection
-        />
-    </div>
+           <DataGrid
+                rows={ data }
+                columns={ columns }
+                pageSize={8}
+                checkboxSelection
+                disableSelectionOnClick
+            />
+        </div>
   )
 }
     
