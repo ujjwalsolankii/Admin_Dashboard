@@ -9,7 +9,7 @@
     justify-content: space-between;
 }
 
-.userAddbutton{
+.userAddButton{
     width: 80px;
     border: none;
     padding: 5px;
@@ -17,7 +17,7 @@
     border-radius: 5px;
     cursor: pointer;
     color: white;
-    font: 16px;
+    font-style: 16px;
 }
 
 .userContainer{
@@ -28,16 +28,15 @@
 .userShow{
     flex: 1;
     padding: 20px;
-    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
-    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
 }
-
 
 .userUpdate{
     flex: 2;
     padding: 20px;
-    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75); 
-    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
     margin-left: 20px;
 }
 
@@ -67,22 +66,25 @@
     font-weight: 300;
 }
 
+.userShowBottom{
+    margin-top: 20px;
+}
+
 .userShowTitle{
     font-size: 14px;
     font-weight: 600;
-    color: rgba(175,170,170);
+    color: rgb(175, 170, 170);
 }
 
 .userShowInfo{
     display: flex;
     align-items: center;
-    margin: 20px 0;
+    margin: 20px 0px;
     color: #444;
 }
 
 .userShowIcon{
-    font-size: 16px !important;
-
+    font-style: 16px !important;
 }
 
 .userShowInfoTitle{
@@ -94,7 +96,7 @@
     font-weight: 600;
 }
 
-.userUpdateForm{
+.userUpdateform{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -103,33 +105,30 @@
 .userUpdateItem{
     display: flex;
     flex-direction: column;
-    margin-top: 10px; 
+    margin-top: 10px;
 }
 
 .userUpdateItem>label{
     margin-bottom: 5px;
     font-size: 14px;
-
 }
 
 .userUpdateInput{
     border: none;
     width: 250px;
-    border-bottom: 1px solid grey;
     height: 30px;
+    border-bottom: 1px solid gray;
 }
 
 .userUpdateRight{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .userUpdateUpload{
     display: flex;
     align-items: center;
-
 }
 
 .userUpdateImg{
@@ -140,7 +139,7 @@
     margin-right: 20px;
 }
 
-.userUpdatecon{
+.userUpdateIcon{
     cursor: pointer;
 }
 
@@ -153,5 +152,4 @@
     color: white;
     font-weight: 600;
 }
-
 
