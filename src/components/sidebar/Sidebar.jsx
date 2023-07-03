@@ -1,6 +1,6 @@
 import React from 'react'
 import "./sidebar.css";
-import {LineStyle,Timeline,TrendingUp , Person,Storefront,AttachMoney
+import {LineStyle,Timeline,TrendingUp , PermIdentity ,Storefront,AttachMoney
 ,Leaderboard,Markunread,DynamicFeed,ChatBubble,Work,ShowChart,Report} from "@mui/icons-material"
 
 export default function Sidebar() {
@@ -28,22 +28,31 @@ export default function Sidebar() {
             <div className="sidebarMenu">
                  <h3 className="sidebarTitle">Quick Menu</h3>
                  <ul className="sidebarList">
-                    <li className="sidebarListItem ">
-                        <Person className='sidebarIcon'/>
-                        Users
-                    </li>
+                    <Link to="/users" className="link">
+                       <li className="sidebarListItem ">
+                            <PermIdentity className='sidebarIcon'/>
+                            Users
+                        </li>
+                    </Link>
+                    <Link to="/products" className="link"> 
                     <li className="sidebarListItem">
                         <Storefront className='sidebarIcon' />
                         Products
                     </li>
+                    </Link>
+                    <Link to="/users"> 
                     <li className="sidebarListItem">
                         <AttachMoney className='sidebarIcon' />
                         Transactions
                     </li>
+                    </Link>
+                    <Link to="/users">
                     <li className="sidebarListItem">
                         <Leaderboard className='sidebarIcon' />
                         Reports
                     </li>
+                    </Link>
+                    
                  </ul>
             </div>
 
