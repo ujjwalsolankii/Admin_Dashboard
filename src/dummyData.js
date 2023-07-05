@@ -62,3 +62,17 @@ export const userRows = [
   { id: 10, userName: 'Petyr Baelish', avatar: "https://g.foolcdn.com/editorial/images/524325/woman-smiling-while-working-on-a-laptop.jpg", email:"jon@gmail.com" ,status:"active" ,transaction:"$120.00" },
   
 ];
+
+export const productRows = [
+  { id: 1, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 2, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 3, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 4, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 5, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 6, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123, status:"active" ,price:"$120.00" },
+  { id: 7, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 8, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 9, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  { id: 10, name: 'Apple Airpods', img: "https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp", stock: 123 ,status:"active" ,price:"$120.00" },
+  
+];

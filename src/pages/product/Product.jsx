@@ -1,8 +1,8 @@
+import { Publish } from "@material-ui/icons";
 import { Link } from 'react-router-dom';
 import './product.css';
 import Chart from '../../components/chart/Chart';
-import { productData } from '../../dumyData';
-import { Publish } from '@material-ui/icons';
+const productData = "../../dummyData";
 
 export default function Product() {
     return (
@@ -20,7 +20,7 @@ export default function Product() {
                 <div className='productTopRight'>
                     <div className='productInfoTop'>
                         <img 
-                        src='https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' 
+                        src='https://s.yimg.com/uu/api/res/1.2/EGDBO8dZLwANesk28zTOiQ--~B/Zmk9ZmlsbDtoPTUyNTt3PTg3NTthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2022-09/e6e611f0-2ed6-11ed-9c5f-9c8fe7f31c59.cf.webp' 
                         alt='' 
                         className='productInfoImg' 
                         />
