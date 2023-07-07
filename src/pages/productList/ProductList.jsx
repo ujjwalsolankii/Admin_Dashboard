@@ -65,7 +65,7 @@ export default function ProductList() {
         <div className='productList'>
             <DataGrid
                 rows={data}
-                disableSelectionOnClick
+                disableRowSelectionOnClick
                 columns={columns}
                 pageSize={8}
                 rowsPerPageOptions={[5]}

@@ -11,14 +11,18 @@ export default function Sidebar() {
             <div className="sidebarMenu">
                  <h3 className="sidebarTitle">Dashboard</h3>
                  <ul className="sidebarList">
+                    <Link to="/" className="link">
                     <li className="sidebarListItem active">
                         <LineStyle className='sidebarIcon'/>
                         Home
                     </li>
+                    </Link>
+                    <Link to="/analytics" className="link">
                     <li className="sidebarListItem">
                         <Timeline className='sidebarIcon' />
                         Analytics
                     </li>
+                    </Link>
                     <li className="sidebarListItem">
                         <TrendingUp className='sidebarIcon' />
                         Sales
@@ -79,10 +83,14 @@ export default function Sidebar() {
                         <Work className='sidebarIcon'/>
                         Manage
                     </li>
+                    
+                    <Link to="/analytics" className="link">
                     <li className="sidebarListItem">
-                        <ShowChart className='sidebarIcon' />
+                    <ShowChart className='sidebarIcon' />
                         Analytics
                     </li>
+                    </Link>
+                    
                     <li className="sidebarListItem">
                         <Report className='sidebarIcon' />
                         Reports

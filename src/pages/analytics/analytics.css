@@ -1,0 +1,8 @@
+.analytics{
+    flex: 4;
+}
+.analyticsWidget{
+    display: flex;
+    margin: 20px;
+    
+}
