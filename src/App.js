@@ -10,6 +10,7 @@ import ProductList from "./pages/productList/ProductList";
 import Product from "./pages/product/Product";
 import NewProduct from "./pages/newProduct/NewProduct";
 import Analytics from "./pages/analytics/Analytics";
+import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route exact path="/analytics">
             <Analytics />
+          </Route>
+          <Route path="/contact">
+            <Contact />
           </Route>
           <Route path="/users">
             <UserList />

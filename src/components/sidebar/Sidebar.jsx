@@ -1,8 +1,8 @@
 import React from 'react'
 import "./sidebar.css";
 import { Link } from "react-router-dom";
-import {LineStyle,Timeline,TrendingUp , PermIdentity ,Storefront,AttachMoney
-,Leaderboard,Markunread,DynamicFeed,ChatBubble,Work,ShowChart,Report} from "@mui/icons-material"
+import {LineStyle,Timeline,ContactPage , PermIdentity ,Storefront,AttachMoney
+,Leaderboard,Markunread,DynamicFeed,ChatBubble,Work,ShowChart,Report, ContactMailOutlined} from "@mui/icons-material"
 
 export default function Sidebar() {
   return (
@@ -23,10 +23,12 @@ export default function Sidebar() {
                         Analytics
                     </li>
                     </Link>
+                    <Link to="/contact" className="link">
                     <li className="sidebarListItem">
-                        <TrendingUp className='sidebarIcon' />
-                        Sales
+                        <ContactPage className='sidebarIcon' />
+                        Contact
                     </li>
+                    </Link>
                  </ul>
             </div>
             
